@@ -12,11 +12,11 @@ clock = pygame.time.Clock()
 pygame.mixer.init()
 pygame.mixer.music.load('space.ogg')
 pygame.mixer.music.set_volume(0.3)
-# pygame.mixer.music.play()
+pygame.mixer.music.play()
 
 fire = pygame.mixer.Sound('fire.ogg')
 fire.set_volume(0.3)
-# fire.play()
+fire.play()
 
 
 class GameSprite(pygame.sprite.Sprite):
